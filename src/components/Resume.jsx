@@ -62,7 +62,7 @@ const Resume = () => {
             whileTap={{ scale: 0.95 }}
           >
             <a
-              href="/resume.pdf"
+              href={`${import.meta.env.BASE_URL}resume.pdf`}
               download
               className="group relative inline-flex items-center gap-3 px-10 py-5 bg-gradient-to-r from-stormy-teal to-air-force-blue text-white rounded-xl font-semibold text-lg shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden"
             >

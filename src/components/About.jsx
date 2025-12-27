@@ -50,7 +50,7 @@ const About = () => {
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-muted-teal/20 to-cotton-rose/20 rounded-full blur-2xl"></div>
                 <img
-                  src="/headshot.png"
+                  src={`${import.meta.env.BASE_URL}headshot.png`}
                   alt="Reena Obmina"
                   className="relative rounded-full w-80 h-80 md:w-96 md:h-96 object-cover shadow-2xl border-4 border-white dark:border-gray-800"
                 />
